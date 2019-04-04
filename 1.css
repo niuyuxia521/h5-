@@ -1,0 +1,149 @@
+*{
+	margin:0;
+	padding: 0;
+}
+img{
+	height: auto;
+		max-width: 100%;
+}
+a{
+	color: #7957d5;
+    cursor: pointer;
+    text-decoration: none;
+}
+#app{
+	-webkit-font-smoothing: antialiased;
+    color: #2c3e50;
+    font-family: Avenir,Helvetica,Arial,sans-serif;
+    text-align: center;
+}
+.header-wrapper{
+	position: relative;
+}
+.sub-header {
+    background: #1b90ed;
+    height: 269px;
+    width: 100%;
+}
+.sub-header-container {
+    margin:0 auto ;
+    width: 1000px;
+   line-height: 48px;
+}
+.sub-header-head {
+    padding-bottom: 66px;
+    padding-top: 22px;
+}
+.columns {
+    margin-left: -.75rem;
+    margin-top: -.75rem;
+
+}
+.columns:last-child {
+    margin-bottom: -.75rem;
+}
+.column.brand {
+    margin-left: 20px;
+    float: left;
+
+}
+.column img{
+	width: 190px;
+}
+.is-10{
+	display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 60px;
+    background: none;
+    box-shadow: none;
+    float: right;
+}
+.is-10>a{
+	color: #fff;
+    font-family: Inconsolata-Bold;
+    font-size: 16px;
+    font-weight: 800;
+    letter-spacing: 0;
+    text-align: center;
+    margin-left:60px;
+}
+.is-10>a.active{
+    border-bottom: 2px solid #fff;
+    color: #fff;
+}
+.sub-header-border {
+    background: #fff;
+    height: 1px;
+    opacity: .3;
+    width: 100%;
+}
+.sub-header-body {
+    margin-bottom: 65px;
+    margin-left: 20px;
+    text-align: left;
+}
+.page-title {
+    color: #fff;
+    font-family: Inconsolata-Bold;
+    font-size: 48px;
+    letter-spacing: 0;
+    line-height: 3;
+}
+.img-intro{
+	margin-top: -8px;
+    position: absolute;
+}
+.is-8{
+	    width: 66.66667%;
+	    margin:0 auto;
+}
+.post-wrapper {
+    display: block;
+    margin-top: 100px;
+}
+.title-wrapper {
+    width: 100%;
+}
+.title-border {
+    background: #1b90ed;
+    display: block;
+    height: 32px;
+    text-align: left;
+    white-space: nowrap;
+    width: 8px;
+}
+.title-content {
+    color: #222;
+    font-family: Inconsolata-Bold;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: 32px;
+    margin-left: 60px;
+}
+.post-content {
+    margin-left: 60px;
+    margin-top: 40px;
+}
+.desc-margin-bottom-22 {
+    margin-bottom: 24px;
+}
+.desc-content {
+    color: #222;
+    font-family: Inconsolata-Regular;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 27px;
+    text-align: justify;
+}
+.desc-margin-bottom-30, .sub-title {
+    margin-bottom: 30px;
+}
+.ordered-spot {
+    background: rgba(80,169,252,.5);
+    border-radius: 5px;
+    display: inline-block;
+    height: 10px;
+    margin-right: 15px;
+    width: 10px;
+}
