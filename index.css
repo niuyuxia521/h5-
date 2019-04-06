@@ -26,3 +26,16 @@
 	.circles ol li{color: white; line-height: 20px; text-align: center;border-radius: 50%;}
 	.circles ol li.cur{background-color: white; color:black;}
     /*轮播图ending*/
+    /*内容开始 中间*/
+    #middle{height:770px;width:100%;}
+    #middle .M-left{height:660px;width:500px;background:url(tutu/04.png);position:relative;top:200px; }
+    #middle .M-right{height:660px;width:750px;position: absolute;right:300px;top: 860px;}
+    #middle .M-right p{font-size:20px;margin-top:40px;}
+     hr{margin-top:30px;color: lightgray;}
+    .middle1{height:660;width:100%;/*position: absolute;*/}
+    /*.middle1 h1{display:inline;}*/
+    .middle1 h1{height:50px;width:255px;color:blue;margin-left:250px; }
+    .m1{height:360px;width:750px;text-align: center;margin: 0 auto;font-size: 20px;}
+    .m1 p{margin-top:40px;}
+    .middle2 {height:660;width:100%;/*position: absolute;*/}
+    .middle2 h1{height:50px;width:355px;color:blue;margin-left:250px;}
