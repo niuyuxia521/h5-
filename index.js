@@ -8,7 +8,7 @@ window.onload=function(){
 		var $carousel = $("#carousel");
 
 		//定时器
-		var timer = setInterval(rightBtnHandler,2000);
+		var timer = setInterval(rightBtnHandler,3000);
 		//鼠标进入，关闭定时器
 		$carousel.mouseenter(function(){
 			clearInterval(timer);
@@ -16,7 +16,7 @@ window.onload=function(){
 		//鼠标离开，恢复定时器
 		$carousel.mouseleave(function(){
 			clearInterval(timer);
-			timer = setInterval(rightBtnHandler,2000);
+			timer = setInterval(rightBtnHandler,3000);
 		});
 
 		// 信号量
