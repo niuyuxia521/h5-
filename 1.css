@@ -147,3 +147,31 @@ a{
     margin-right: 15px;
     width: 10px;
 }
+.desc-content a{
+	    color: #1B8BED;
+}
+.footer-wrapper{
+	margin:0 auto;
+}
+.footer-header{
+	border-bottom: 1px solid rgba(34,34,34,.1);
+    border-top: 1px solid rgba(34,34,34,.1);
+    padding-bottom: 120px;
+    padding-top: 120px;
+}
+.is-6{
+	-webkit-box-flex: 0;
+    flex: none;
+    width: 50%;
+    float: left;
+}
+.footer-wrapper .addr {
+    color: #222;
+    font-family: Inconsolata-Regular;
+    font-size: 14px;
+    height: 42px;
+    letter-spacing: 0;
+    line-height: 21px;
+    text-align: left;
+    width: 260px;
+}
