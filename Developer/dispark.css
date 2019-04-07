@@ -1,0 +1,285 @@
+html, body{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: -apple-system, "PingFang SC", "Helvetica Neue", Helvetica, "Hiragino Sans GB", "Microsoft YaHei", "ST Heiti", SimHei, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    color: #222222;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+.home-page{
+    width: 100%;
+    min-width: 1100px;
+}
+.header{
+    position: relative;
+    height: 60px;
+    width: 100%;
+    background: #fff;
+    box-sizing: border-box;
+    padding-right: 16px;
+}
+a {
+    cursor: pointer;
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+    transition: opacity 0.4s;
+}
+.header .header-logo{
+    width: 243px;
+}
+.banner{
+    background-image: linear-gradient(-133deg, #FFCEA8 0%, #F77F8F 100%);
+    width: 100%;
+    height: 550px;
+    position: relative;
+}
+.banner .bg{
+    margin: auto;
+    width: 100%;
+    max-width: 1400px;
+    height: 100%;
+    background: url(img/banner_wave.9c76265.png) no-repeat center;
+    background-size: cover;
+    position: relative;
+}
+.banner .bg .text{
+    position: absolute;
+    top: 199px;
+    left: 280px;
+    color: #FFFFFF;
+}
+.banner .bg .text .title{
+    font-size: 42px;
+    margin-bottom: 48px;
+    line-height: 36px;
+}
+.banner .bg .text .intro{
+    line-height: 36px;
+    font-size: 20px;
+    width: 418px;
+}
+.banner .bg .phone{
+    position: absolute;
+    top: 50%;
+    left: 780px;
+    transform: translateY(-50%);
+    height: 500px;
+}
+.home-page .card{
+    padding: 68px 0;
+    min-height: 550px;
+    box-sizing: border-box;
+}
+.home-page .download{
+    padding-top: 76px;
+    vertical-align: middle;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home-page .download .logo{
+    width: 362px;
+    height: 374px;
+    margin-right: 120px;
+}
+.home-page .download .text-part{
+    display: inline-block;
+}
+.home-page .download .text-part .title{
+    font-size: 40px;
+}
+.home-page .download .text-part .intro{
+    line-height: 36px;
+    width: 534px;
+    margin: 40px auto 60px auto;
+    font-size: 18px;
+    color: #5C5C5C;
+}
+.home-page .download .text-part .btn-download{
+    width: 140px;
+    height: 40px;
+    background: #ED4040;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+.home-page .download .text-part .btn-download a{
+    font-weight: 500;
+    width: 100%;
+    height: 100%;
+    line-height: 40px;
+    display: block;
+    font-size: 16px;
+    color: #fff;
+}
+.home-page .face, .home-page .filter{
+    background: #FFF9F9;
+}
+.home-page .card .content-wrapper{
+    padding: 0;
+    margin: auto;
+    width: 920px;
+}
+.copy-writer{
+    width: 298px;
+}
+.home-page .card .copy-writer{
+    display: inline-block;
+    position: relative;
+    top: -122px;
+}
+.home-page .face .copy-writer, .home-page .filter .copy-writer{
+    margin-right: 110px;
+}
+.copy-writer .title{
+    font-size: 36px;
+    margin-bottom: 34px;
+}
+.copy-writer .content{
+    font-size: 16px;
+    position: relative;
+    margin-bottom: 20px;
+    width: 100%;
+}
+.copy-writer .content .dot{
+    position: absolute;
+    top: 12px;
+    left: 0;
+    display: inline-block;
+    background: #ED4040;
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+}
+.copy-writer .content .content-text{
+    text-align: left;
+    color: #5C5C5C;
+    font-size: 18px;
+    width: 100%;
+    white-space: normal;
+    word-break: break-all;
+    display: block;
+    margin-left: 10px;
+    line-height: 30px;
+}
+.home-page .face .custom-video, .home-page .filter .custom-video{
+    display: inline-block;
+}
+.custom-video{
+    cursor: pointer;
+    height: 414px;
+    width: 264px;
+    position: relative;
+    box-shadow: 0 6px 17px 0 rgba(0, 0, 0, 0.12);
+}
+.custom-video .video-custom{
+    width: 100%;
+    height: 100%;
+}
+.custom-video .modal{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.15);
+    transition: height .3s linear;
+}
+.custom-video .img-icon{
+    cursor: pointer;
+    position: absolute;
+    width: 54px;
+    height: 54px;
+    bottom: 16px;
+    right: 16px;
+}
+.home-page .face .img-wrapper, .home-page .filter .img-wrapper{
+    margin-left: 22px;
+    top: -8px;
+}
+.home-page .card .img-wrapper{
+    display: inline-block;
+    position: relative;
+}
+.custom-img{
+    border: 8px solid #fff;
+    box-shadow: 0 6px 17px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    height: 196px;
+    width: 196px;
+}
+.custom-img img{
+    width: 100%;
+    height: 100%;
+}
+.home-page .beautify .img-wrapper{
+    position: relative;
+}
+.home-page .card .img-wrapper{
+    display: inline-block;
+}
+.home-page .beautify .img-wrapper .custom-img:last-child{
+    position: absolute;
+    bottom: 29px;
+    left: 201px;
+}
+.home-page .beautify .copy-writer{
+    margin-left: 336px;
+}
+.home-page .sticker{
+    text-align: center;
+}
+.home-page .sticker .title{
+    font-size: 36px;
+    margin-bottom: 34px;
+}
+.home-page .sticker .intro{
+    font-size: 18px;
+    color: #5C5C5C;
+}
+.home-page .sticker .video-wrapper{
+    margin-top: 60px;
+}
+.home-page .sticker .video-wrapper .custom-video{
+    display: inline-block;
+    margin-right: 30px;
+}
+.home-page .sticker .reminder{
+    font-size: 18px;
+    color: #5C5C5C;
+    margin-top: 20px;
+}
+.home-page .cooperation{
+    margin: 20px auto 10px auto;
+    width: 300px;
+    text-align: center;
+    color: #5C5C5C;
+}
+.home-page .footer{
+    box-sizing: border-box;
+    color: #666666;
+    padding: 28px 0 24px 0;
+    height: 107px;
+    width: 100%;
+    text-align: center;
+    background: #f7f7f7;
+    font-size: 14px;
+}
+.home-page .footer .links{
+    width: 510px;
+    margin: 0 auto 20px auto;
+}
+.home-page .footer .links span{
+    color: #666666;
+    margin-right: 100px;
+}
+.home-page .footer .links span a{
+    color: #666666;
+}
